@@ -1,5 +1,5 @@
 {
-    "name" : "Screen Capturing",
+    "name" : "IWannaSeeIt Screen Capture",
     "author": "Muaz Khan",
     "version" : "3.3",
     "manifest_version" : 2,
@@ -14,7 +14,7 @@
        "js": [ "content-script.js" ],
        "all_frames": true,
        "run_at": "document_start",
-       "matches": ["*://www.webrtc-experiment.com/*"]
+       "matches": ["*://localhost:*/*", "*://docker/*", "*://*.iwannaseeit.com/*"]
     }],
     "icons" : {
         "48" : "icon.png"
